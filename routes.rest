@@ -1,0 +1,46 @@
+POST http://localhost:3000/addCar
+Content-Type: application/json
+
+{
+    "model": "Camry",
+    "mark": "Toyota",
+    "type": "Sedan",
+    "year": 2022,
+    "seats": 5,
+    "ac": true,
+    "transmission": "Automatic",
+    "fuel": "Gasoline",
+    "price": 85,
+    "image": "assets/Toyota-Camry.png",
+    "licensePlate": "M-M7N 901"
+}
+
+
+###
+POST http://localhost:3000/addBooking
+Content-Type: application/json
+
+{
+    "car": "64232ee11df83b0bfccbb2d6",
+    "mark": "Honda",
+    "model": "Civic",
+    "pickupPlace": "Berlin",
+    "dropoffPlace": "Berlin",
+    "pickupDate": "2023-02-12",
+    "dropoffDate": "2023-02-14",
+    "firstName":"Name",
+    "lastName":"Name",
+    "phone":"123456789",
+    "age":"18",
+    "email":"ukjwwqnowrwjxqqafz@tpwlb.com",
+    "address":"address",
+    "city":"city",
+    "zipcode":"01234"
+}
+
+
+### 
+
+GET http://localhost:3000/car
+Content-Type: application/json 
+
